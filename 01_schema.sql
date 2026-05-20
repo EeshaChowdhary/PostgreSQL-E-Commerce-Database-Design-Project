@@ -1,5 +1,5 @@
-CREATE TABLE users (
-    user_id SERIAL PRIMARY KEY,
+CREATE TABLE clients (
+    client_id SERIAL PRIMARY KEY,
     name VARCHAR(100),
     email VARCHAR(100) UNIQUE,
     password VARCHAR(100),
@@ -25,13 +25,13 @@ CREATE TABLE product (
 
 CREATE TABLE orders (
     order_id SERIAL PRIMARY KEY,
-    user_id INT,
+    client_id INT,
     order_date DATE DEFAULT CURRENT_DATE,
     total_amount DECIMAL(10,2),
     status VARCHAR(50),
 
-    FOREIGN KEY (user_id)
-    REFERENCES users(user_id)
+    FOREIGN KEY (client_id)
+    REFERENCES clients(client_id)
 );
 
 CREATE TABLE order_item (

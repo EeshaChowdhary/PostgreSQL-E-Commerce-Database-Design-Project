@@ -6,7 +6,7 @@ This project is a simple E-Commerce database system designed using PostgreSQL.
 The database simulates the backend structure of an e-commerce platform like Amazon or Nykaa.
 
 It includes:
-- Users
+- Clients
 - Categories
 - Products
 - Orders
@@ -50,7 +50,7 @@ Stores product categories.
 Stores product details and category references.
 
 ### Orders
-Stores order information placed by users.
+Stores order information placed by clientss.
 
 ### Order_Item
 Stores products included in each order.
@@ -58,7 +58,7 @@ Stores products included in each order.
 ---
 
 ## 🔗 Relationships
-- One user can place many orders.
+- One client can place many orders.
 - One category can contain many products.
 - One order can contain many products.
 - One product can appear in many orders.

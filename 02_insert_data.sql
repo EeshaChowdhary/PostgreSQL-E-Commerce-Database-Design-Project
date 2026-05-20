@@ -1,4 +1,4 @@
-INSERT INTO users (name, email, password, address)
+INSERT INTO clients (name, email, password, address)
 VALUES
 ('Rahul Sharma', 'rahul@gmail.com', 'rahul123', 'Hyderabad'),
 ('Priya Verma', 'priya@gmail.com', 'priya123', 'Mumbai'),
@@ -21,7 +21,7 @@ VALUES
 ('Novel Book', 'Fiction story book', 499.00, 25, 4),
 ('Wireless Earbuds', 'Bluetooth earbuds', 1999.00, 15, 1);
 
-INSERT INTO orders (user_id, total_amount, status)
+INSERT INTO orders (client_id, total_amount, status)
 VALUES
 (1, 25298.00, 'Placed'),
 (2, 1098.00, 'Delivered'),
@@ -38,5 +38,3 @@ VALUES
 (3, 5, 1, 1999.00),
 (4, 4, 1, 499.00),
 (5, 2, 1, 299.00);
-
-SELECT * FROM users;

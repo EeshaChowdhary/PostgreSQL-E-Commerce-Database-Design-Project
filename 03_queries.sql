@@ -1,4 +1,4 @@
-SELECT * FROM users;
+SELECT * FROM clients;
 SELECT * FROM category;
 SELECT * FROM product;
 SELECT * FROM orders;
