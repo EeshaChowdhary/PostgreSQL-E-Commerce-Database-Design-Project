@@ -85,7 +85,7 @@ This project helped in understanding:
 
 ## 🖼 ER Diagram
 
-![ER Diagram](ER - Diagram.png)
+![ER Diagram](05_ER - Diagram.png)
 
 ## Query Output Screenshots
 
