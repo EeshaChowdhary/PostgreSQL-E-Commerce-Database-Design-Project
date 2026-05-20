@@ -1,3 +1,7 @@
+-- =========================================
+-- INSERT SAMPLE DATA INTO CLIENTS TABLE
+-- =========================================
+
 INSERT INTO clients (name, email, password, address)
 VALUES
 ('Rahul Sharma', 'rahul@gmail.com', 'rahul123', 'Hyderabad'),
@@ -6,12 +10,20 @@ VALUES
 ('Sneha Kapoor', 'sneha@gmail.com', 'sneha123', 'Delhi'),
 ('Vikram Patel', 'vikram@gmail.com', 'vikram123', 'Chennai');
 
+-- =========================================
+-- INSERT SAMPLE DATA INTO CATEGORY TABLE
+-- =========================================
+
 INSERT INTO category (category_name)
 VALUES
 ('Electronics'),
 ('Skincare'),
 ('Fashion'),
 ('Books');
+
+-- =========================================
+-- INSERT SAMPLE DATA INTO PRODUCTS TABLE
+-- =========================================
 
 INSERT INTO product (name, description, price, stock, category_id)
 VALUES
@@ -21,6 +33,10 @@ VALUES
 ('Novel Book', 'Fiction story book', 499.00, 25, 4),
 ('Wireless Earbuds', 'Bluetooth earbuds', 1999.00, 15, 1);
 
+-- =========================================
+-- INSERT SAMPLE DATA INTO ORDERS TABLE
+-- =========================================
+
 INSERT INTO orders (client_id, total_amount, status)
 VALUES
 (1, 25298.00, 'Placed'),
@@ -28,6 +44,10 @@ VALUES
 (3, 1999.00, 'Shipped'),
 (4, 499.00, 'Delivered'),
 (5, 299.00, 'Placed');
+
+-- =========================================
+-- INSERT SAMPLE DATA INTO ORDER_ITEMS TABLE
+-- =========================================
 
 INSERT INTO order_item (order_id, product_id, quantity, price)
 VALUES

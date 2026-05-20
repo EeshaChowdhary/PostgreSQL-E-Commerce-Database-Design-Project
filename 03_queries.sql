@@ -1,14 +1,33 @@
--- View all users
-SELECT * FROM users;
+-- =========================================
+-- VIEW ALL CLIENTS
+-- =========================================
 
--- View all category
+SELECT * FROM clients;
+
+
+-- =========================================
+-- VIEW ALL CATEGORIES
+-- =========================================
+
 SELECT * FROM category;
 
--- View all products
+
+-- =========================================
+-- VIEW ALL PRODUCTS
+-- =========================================
+
 SELECT * FROM product;
 
--- View all orders
+
+-- =========================================
+-- VIEW ALL ORDERS
+-- =========================================
+
 SELECT * FROM orders;
 
--- View all order_items
+
+-- =========================================
+-- VIEW ALL ORDER ITEMS
+-- =========================================
+
 SELECT * FROM order_item;

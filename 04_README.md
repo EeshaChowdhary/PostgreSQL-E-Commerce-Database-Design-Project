@@ -86,3 +86,20 @@ This project helped in understanding:
 ## 🖼 ER Diagram
 
 ![ER Diagram](ER - Diagram.png)
+
+## Query Output Screenshots
+
+### Clients Table Output
+![Clients Output](images/01_clients.png)
+
+### Products Table Output
+![Products Output](images/02_category.png)
+
+### Orders Table Output
+![Orders Output](images/03_products.png)
+
+### Orders Table Output
+![Orders Output](images/04_orders.png)
+
+### Orders Table Output
+![Orders Output](images/05_order_item.png)
